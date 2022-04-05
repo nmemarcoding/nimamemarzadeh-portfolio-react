@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4vh;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+div.link {
+    color: black;
+    margin-right: 2vh;
+}
+
+div.link:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
