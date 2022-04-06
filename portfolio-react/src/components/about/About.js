@@ -16,7 +16,7 @@ export default function About() {
   return (
     <div className="about">
         <div className="about__left">
-            <img className="protfolio__img" src="http://192.168.0.12:3001/assets/images/portfolio.png" alt="Portfolio picture"></img>
+            <img className="protfolio__img" src="images/portfolio.png" alt=""></img>
         </div>
         <div className="about__rigt">
             <h3>Hi Ther, i'm</h3>

@@ -12,7 +12,9 @@ export default function Navbar() {
         <Link to="/about">
           <div className="link">AboutMe</div>
         </Link>
-        <div className="link">Portfolio</div>
+        <Link to="/portfolio">
+          <div className="link">Portfolio</div>
+        </Link>
         <div className="link">Conatact</div>
         <div className="link">Resume</div>
       </div>

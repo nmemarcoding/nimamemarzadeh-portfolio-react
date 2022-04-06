@@ -1,0 +1,33 @@
+.card>img {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.card {
+    position: relative;
+    box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+}
+
+.link__list {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.link__list:hover {
+    background-color: rgba(248, 85, 85, 0.256);
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
