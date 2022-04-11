@@ -15,8 +15,13 @@ export default function Navbar() {
         <Link to="/portfolio">
           <div className="link">Portfolio</div>
         </Link>
-        <div className="link">Conatact</div>
-        <div className="link">Resume</div>
+      
+        <Link to="/contact">
+          <div className="link">Contact</div>
+        </Link>
+        <Link to="/resume">
+          <div className="link">Resume</div>
+        </Link>
       </div>
     </div>
   )

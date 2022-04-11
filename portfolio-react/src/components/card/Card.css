@@ -23,11 +23,11 @@
 }
 
 .link__list:hover {
-    background-color: rgba(248, 85, 85, 0.256);
+    background-color: rgba(6, 6, 6, 0.55);
     opacity: 1;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }

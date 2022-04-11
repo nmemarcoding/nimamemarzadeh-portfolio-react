@@ -1,16 +1,21 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 4vh;
     flex-wrap: wrap;
     margin-bottom: 3vh;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    margin: 0;
 }
 
 .right {
     display: flex;
     align-items: center;
-    margin-left: 10vw;
+    justify-content: center;
 }
 
 div.link {

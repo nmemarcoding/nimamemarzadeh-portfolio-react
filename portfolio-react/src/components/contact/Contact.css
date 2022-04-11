@@ -1,0 +1,49 @@
+    .contact {
+        margin-top: 17vh;
+        display: flex;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left__contact {
+        flex: .5;
+        padding-left: 9vw;
+        width: 100%;
+        margin-bottom: 20vh;
+    }
+    
+    .right__contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    textarea {
+        height: 10vh;
+        width: 50%;
+    }
+    
+    input {
+        width: 50%;
+        margin-bottom: 9px;
+    }
+    
+    .btn {
+        margin-top: 9px;
+        width: 50%;
+    }
+    
+    @media screen and (max-width: 900px) {
+        .contact {
+            flex-wrap: wrap;
+        }
+        .left__contact {
+            flex: 1;
+            padding: 0 10vw
+        }
+    }

@@ -7,7 +7,7 @@ export const projects = [{
     name: "Work Day Scheduler",
     img: "images/workDay.png",
     git: "https://github.com/nmemarcoding/passwordGenerator",
-    web: "https://nmemarcoding.github.io/passwordGenerator/"
+    web: "https://nmemarcoding.github.io/workDayScheduler/"
 }, {
     name: "WeaderDashbpard",
     img: "images/weather.png",
