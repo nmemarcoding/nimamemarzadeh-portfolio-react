@@ -1,6 +1,9 @@
     .contact {
         margin-top: 17vh;
         display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
     
     form {
@@ -9,7 +12,7 @@
     }
     
     .left__contact {
-        flex: .5;
+        flex: 0.40;
         padding-left: 9vw;
         width: 100%;
         margin-bottom: 20vh;
@@ -17,33 +20,45 @@
     
     .right__contact {
         display: flex;
+        flex: .60;
         align-items: center;
         justify-content: center;
         width: 100%;
         flex-direction: column;
     }
     
-    textarea {
-        height: 10vh;
-        width: 50%;
-    }
-    
     input {
-        width: 50%;
         margin-bottom: 9px;
     }
     
     .btn {
         margin-top: 9px;
-        width: 50%;
     }
     
     @media screen and (max-width: 900px) {
         .contact {
             flex-wrap: wrap;
         }
+    }
+    
+    @media screen and (max-width: 463px) {
+        .contact {
+            flex-wrap: wrap;
+        }
         .left__contact {
             flex: 1;
             padding: 0 10vw
+        }
+        textarea {
+            height: 10vh;
+            width: 50%;
+        }
+        input {
+            width: 50%;
+            margin-bottom: 9px;
+        }
+        .btn {
+            margin-top: 9px;
+            width: 50%;
         }
     }
