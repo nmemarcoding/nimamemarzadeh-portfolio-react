@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nimamemarzadeh-portfolio-react/static/css/main.6aeb4b36.css",
+    "main.js": "/nimamemarzadeh-portfolio-react/static/js/main.019c0113.js",
+    "static/js/787.aeca62f9.chunk.js": "/nimamemarzadeh-portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "index.html": "/nimamemarzadeh-portfolio-react/index.html",
+    "main.6aeb4b36.css.map": "/nimamemarzadeh-portfolio-react/static/css/main.6aeb4b36.css.map",
+    "main.019c0113.js.map": "/nimamemarzadeh-portfolio-react/static/js/main.019c0113.js.map",
+    "787.aeca62f9.chunk.js.map": "/nimamemarzadeh-portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aeb4b36.css",
+    "static/js/main.019c0113.js"
+  ]
+}
