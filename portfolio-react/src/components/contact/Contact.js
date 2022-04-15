@@ -32,8 +32,10 @@ export default function Contact() {
             <input type="email" name="user_email" />
            
             <label>Message</label>
+            
            
-            <textarea name="message" />
+            <textarea name="message" className="contact__textarea" />
+            
      
             <input type="submit" className="btn" value="Send" />
        

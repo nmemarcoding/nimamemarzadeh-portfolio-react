@@ -1,20 +1,21 @@
-.resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    flex-direction: column;
-    margin-top: 17vh;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-li {
-    list-style: square;
-}
+        .resume {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            margin: 0;
+            flex-direction: column;
+            margin-top: 17vh;
+            margin-left: 10vw;
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            padding: 0;
+        }
+        
+        li {
+            list-style: circle;
+        }
