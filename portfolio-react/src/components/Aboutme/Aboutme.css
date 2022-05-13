@@ -1,0 +1,9 @@
+.aboueme-summery {
+    margin-top: 30vh;
+    padding: 70px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px -8px 55px -3px rgba(0, 0, 0, 0.34);
+}

@@ -5,6 +5,7 @@ import About from './components/about/About.js'
 import Portfolio from './components/portfolio/Portfolio.js'
 import Resume from './components/resume/Resume.js';
 import Contact from './components/contact/Contact.js';
+import Aboutme from './components/Aboutme/Aboutme.js';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div className="app">
             
             <Routes>
-              <Route path="/about" element={<><Navbar/><About/></>}/> 
+              <Route path="/about" element={<><Navbar/><Aboutme/></>}/> 
               <Route path="/portfolio" element={<><Navbar/><Portfolio/></>}/>
               <Route path="/resume" element={<><Navbar/><Resume/></>}/>
               <Route path="/contact" element={<><Navbar/><Contact/></>}/>

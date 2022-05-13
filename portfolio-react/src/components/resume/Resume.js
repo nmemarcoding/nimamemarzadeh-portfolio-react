@@ -4,7 +4,10 @@ import './Resume.css'
 export default function Resume() {
   return (
     <div className="resume">
-        <button className="resume__download">Download Resume</button> 
+        <div className="resume__btn">
+          <a href="https://docs.google.com/document/d/1OFoFT0uR4nDUGR68LKm3sqwWYvA1wArxVuhB1LaKkU0/edit?usp=sharing"><button>View Resume</button></a>
+          <a href="/resume.pdf" download><button className="resume__download">Download Resume</button> </a>
+        </div>
         <h2>Front-end  Proficiencies</h2>
         <ul>
             <li>HTML5</li>

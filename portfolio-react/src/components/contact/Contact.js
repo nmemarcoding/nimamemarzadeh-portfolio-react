@@ -44,6 +44,7 @@ export default function Contact() {
         <div className="right__contact">
             <h2>310-849-7724</h2>
             <h2>nmemarcoding@gmail.com</h2>
+            <a className="linkdin" href="https://www.linkedin.com/in/nima-memarzadeh-50708a22b/"><h2>Linkdin</h2></a>
         </div>
     </div>
   );

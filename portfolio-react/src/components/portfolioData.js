@@ -33,4 +33,14 @@ export const projects = [{
     img: "images/record.png",
     git: "https://github.com/dmevola/4-the-record",
     web: "https://record-1400.herokuapp.com/"
+}, {
+    name: "amazon-clone",
+    img: "images/amazon-clone.png",
+    git: "https://github.com/nmemarcoding/amazon-clone",
+    web: "https://clone-96b5a.firebaseapp.com/"
+}, {
+    name: "e-comic",
+    img: "images/e-comic.png",
+    git: "https://github.com/dmevola/e-comics",
+    web: "https://e-comic-403a6.firebaseapp.com/"
 }]

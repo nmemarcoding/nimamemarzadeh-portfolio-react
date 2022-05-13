@@ -19,3 +19,9 @@
         li {
             list-style: circle;
         }
+        
+        .resume__btn {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
