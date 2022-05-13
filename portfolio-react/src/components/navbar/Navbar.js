@@ -6,7 +6,10 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="left">
-        <h1 className="name">genius.</h1>  
+        <a href="/">
+
+          <h1 className="name">genius.</h1>  
+        </a>
       </div>
       <div className="right">
         <Link to="/about">

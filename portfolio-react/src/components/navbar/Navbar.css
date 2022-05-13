@@ -30,3 +30,7 @@ div.link:hover {
 a {
     text-decoration: none;
 }
+
+.name {
+    color: black;
+}
