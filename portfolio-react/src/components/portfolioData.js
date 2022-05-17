@@ -43,4 +43,9 @@ export const projects = [{
     img: "images/e-comic.png",
     git: "https://github.com/dmevola/e-comics",
     web: "https://e-comic-403a6.firebaseapp.com/"
+}, {
+    name: "booking1400",
+    img: "images/booking1400.png",
+    git: "https://github.com/nmemarcoding/booking1400",
+    web: "https://booking1400-d2dae.web.app/"
 }]
