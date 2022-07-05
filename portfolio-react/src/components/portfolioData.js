@@ -48,4 +48,9 @@ export const projects = [{
     img: "images/booking1400.png",
     git: "https://github.com/nmemarcoding/booking1400",
     web: "https://booking1400-d2dae.web.app/"
+}, {
+    name: "",
+    img: "images/e-commerce1400.png",
+    git: "https://github.com/nmemarcoding/e-commerce",
+    web: "https://e-commerce1400.web.app/"
 }]

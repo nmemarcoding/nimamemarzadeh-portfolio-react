@@ -5,8 +5,8 @@ export default function Resume() {
   return (
     <div className="resume">
         <div className="resume__btn">
-          <a href="https://docs.google.com/document/d/1OFoFT0uR4nDUGR68LKm3sqwWYvA1wArxVuhB1LaKkU0/edit?usp=sharing"><button>View Resume</button></a>
-          <a href="/resume.pdf" download><button className="resume__download">Download Resume</button> </a>
+          <a href="https://docs.google.com/document/d/1dTwYoWqewjB_n4aUqzRGXiaysHVzTFM8/edit?usp=sharing&ouid=101570304964485566712&rtpof=true&sd=true"><button>View Resume</button></a>
+          <a href="/Nima Memarzadeh Resume (New).pdf" download><button className="resume__download">Download Resume</button> </a>
         </div>
         <h2>Front-end  Proficiencies</h2>
         <ul>
